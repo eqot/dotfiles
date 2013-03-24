@@ -6,6 +6,7 @@ alias unproxy="unset http_proxy https_proxy HTTP_PROXY HTTPS_PROXY"
 alias g="git"
 
 # Grunt
+alias gb="grunt build"
 alias gs="grunt server"
 
 # Google App Engine
