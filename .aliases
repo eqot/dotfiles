@@ -2,6 +2,12 @@
 alias ls="ls -G"
 alias unproxy="unset http_proxy https_proxy HTTP_PROXY HTTPS_PROXY"
 
+# git
+alias g="git"
+
+# Grunt
+alias gs="grunt server"
+
 # Google App Engine
 alias deploy="$HOME/bin/GAE/appengine-java-sdk/bin/appcfg.sh update ./war"
 
