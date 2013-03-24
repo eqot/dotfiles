@@ -1,0 +1,9 @@
+# Generic
+alias ls="ls -G"
+alias unproxy="unset http_proxy https_proxy HTTP_PROXY HTTPS_PROXY"
+
+# Google App Engine
+alias deploy="$HOME/bin/GAE/appengine-java-sdk/bin/appcfg.sh update ./war"
+
+# MongoDB
+alias mongod="mongod --dbpath /var/db/mongo"
