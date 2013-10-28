@@ -26,3 +26,8 @@ source ~/.nvm/nvm.sh
 nvm use v0.10.21
 npm_dir=${NVM_PATH}_modules
 export NODE_PATH=$npm_dir
+
+# Ruby
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+rvm use 2.0.0@rails_4_0 --default
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
