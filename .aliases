@@ -9,8 +9,11 @@ alias g="git"
 alias gb="grunt build"
 alias gs="grunt server"
 
-# Google App Engine
-alias deploy="$HOME/bin/GAE/appengine-java-sdk/bin/appcfg.sh update ./war"
-
 # MongoDB
 alias mongod="mongod --dbpath /var/db/mongo"
+
+# Ruby on Rails
+alias r="rails"
+
+# Vagrant
+alias va="vagrant"
