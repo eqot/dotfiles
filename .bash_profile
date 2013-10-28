@@ -18,11 +18,11 @@ shopt -s histappend
 # Autocorrect typos in path names when using `cd`
 shopt -s cdspell
 
+# Maltybrew
+. /Users/eqo/bin/maltybrew switch_inplace dev
+
 # node.js
 source ~/.nvm/nvm.sh
 nvm use v0.10.21
 npm_dir=${NVM_PATH}_modules
 export NODE_PATH=$npm_dir
-
-# Maltybrew
-. /Users/eqo/bin/maltybrew switch_inplace dev
