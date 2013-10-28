@@ -23,3 +23,6 @@ source ~/.nvm/nvm.sh
 nvm use v0.8.22
 npm_dir=${NVM_PATH}_modules
 export NODE_PATH=$npm_dir
+
+# Maltybrew
+. /Users/eqo/bin/maltybrew switch_inplace dev
