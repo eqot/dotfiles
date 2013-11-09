@@ -7,7 +7,7 @@ alias g="git"
 
 # Grunt
 alias gb="grunt build"
-alias gs="grunt server"
+alias gs="grunt serve"
 
 # MongoDB
 alias mongod="mongod --dbpath /var/db/mongo"
