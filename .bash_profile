@@ -29,5 +29,5 @@ export NODE_PATH=$npm_dir
 
 # Ruby
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
-rvm use 2.0.0@rails_4_0 --default
+rvm use 2.0.0@rails_4_0_1 --default
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
