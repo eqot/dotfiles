@@ -14,6 +14,7 @@ alias mongod="mongod --dbpath /var/db/mongo"
 
 # Ruby on Rails
 alias r="rails"
+alias b="bundle"
 
 # Vagrant
 alias va="vagrant"
