@@ -16,6 +16,7 @@ alias mongod="mongod --dbpath /var/db/mongo"
 # Ruby on Rails
 alias r="rails"
 alias b="bundle"
+alias mi="rake db:migrate && RAILS_ENV=test rake db:migrate"
 
 # Vagrant
 alias va="vagrant"
