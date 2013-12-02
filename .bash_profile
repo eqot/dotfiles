@@ -19,7 +19,7 @@ shopt -s histappend
 shopt -s cdspell
 
 # Maltybrew
-. /Users/eqo/bin/maltybrew switch_inplace dev
+. $HOME/bin/maltybrew switch_inplace dev
 
 # node.js
 source ~/.nvm/nvm.sh
