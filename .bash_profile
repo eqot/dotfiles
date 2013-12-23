@@ -23,7 +23,7 @@ shopt -s cdspell
 
 # node.js
 source ~/.nvm/nvm.sh
-nvm use v0.10.23
+nvm use v0.10.24
 npm_dir=${NVM_PATH}_modules
 export NODE_PATH=$npm_dir
 
