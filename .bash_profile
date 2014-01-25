@@ -34,3 +34,8 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 # Android
 PATH=$PATH:$HOME/bin/Android/adt/sdk/platform-tools
+
+# git
+source ~/bin/git-completion.bash
+source ~/bin/git-prompt.sh
+PROMPT_COMMAND='__git_ps1 "\u@\h:\W" "\\\$ "'
