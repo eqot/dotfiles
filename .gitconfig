@@ -9,10 +9,12 @@
 	ui = true
 [alias]
 	co = checkout
+	b = branch
 	s = status
 	c = commit -m
 	a = add
 	d = diff
+	m = merge
 [pager]
         log = diff-highlight | less
         show = diff-highlight | less
