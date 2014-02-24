@@ -20,6 +20,6 @@
 	show = diff-highlight | less
 	diff = diff-highlight | less
 [core]
-	editor = subl -n -w
+	editor = subl -w
 [merge]
 	ff = false
