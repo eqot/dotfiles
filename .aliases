@@ -21,3 +21,6 @@ alias mi="rake db:migrate && RAILS_ENV=test rake db:migrate"
 
 # Vagrant
 alias va="vagrant"
+
+# Sublime Text
+alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
