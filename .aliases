@@ -1,4 +1,5 @@
 # Generic
+alias l="ls -G"
 alias ls="ls -G"
 alias unproxy="unset http_proxy https_proxy HTTP_PROXY HTTPS_PROXY"
 
