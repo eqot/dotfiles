@@ -40,3 +40,6 @@ PATH=$PATH:$HOME/bin/Android/adt/sdk/platform-tools
 source ~/bin/git-completion.bash
 source ~/bin/git-prompt.sh
 PROMPT_COMMAND='__git_ps1 "\u@\h:\W" "\\\$ "'
+
+# docker
+export DOCKER_HOST=tcp://localhost:4243

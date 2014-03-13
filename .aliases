@@ -22,3 +22,6 @@ alias mi="rake db:migrate && RAILS_ENV=test rake db:migrate"
 
 # Vagrant
 alias va="vagrant"
+
+# docker
+alias dc="docker"
