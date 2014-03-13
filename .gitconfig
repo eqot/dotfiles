@@ -8,14 +8,14 @@
 [color]
 	ui = true
 [alias]
-	co = checkout
-	b = branch
-	s = status
-	c = commit -m
 	a = add
+	b = branch
+	c = commit -m
+	co = checkout
 	d = diff
-	m = merge
 	f = fetch
+	m = merge
+	s = status
 [pager]
 	log = diff-highlight | less
 	show = diff-highlight | less
