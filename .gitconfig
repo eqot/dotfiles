@@ -15,6 +15,7 @@
 	a = add
 	d = diff
 	m = merge
+	f = fetch
 [pager]
 	log = diff-highlight | less
 	show = diff-highlight | less
