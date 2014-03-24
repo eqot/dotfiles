@@ -25,3 +25,6 @@ alias va="vagrant"
 
 # docker
 alias dc="docker"
+
+# Firefox OS
+alias fxos="adb forward tcp:6000 localfilesystem:/data/local/debugger-socket"
