@@ -33,7 +33,8 @@ rvm use 2.1.1@rails_4_1_0 --default
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 # Android
-PATH=$PATH:$HOME/bin/Android/adt/sdk/platform-tools
+android_dir=$HOME/bin/android/android-sdk-mac_x86
+PATH=$PATH:$android_dir/platform-tools:$android_dir/tools
 
 # git
 #  ref) https://github.com/git/git/tree/master/contrib/completion
