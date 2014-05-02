@@ -39,6 +39,7 @@ PATH=$PATH:$android_dir/platform-tools:$android_dir/tools
 # git
 #  ref) https://github.com/git/git/tree/master/contrib/completion
 source ~/bin/git-completion.bash
+source ~/bin/git-flow-completion.bash
 source ~/bin/git-prompt.sh
 PROMPT_COMMAND='__git_ps1 "\u@\h:\W" "\\\$ "'
 
