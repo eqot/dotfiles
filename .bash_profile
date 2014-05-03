@@ -19,7 +19,9 @@ shopt -s histappend
 shopt -s cdspell
 
 # Maltybrew
-. $HOME/bin/maltybrew switch_inplace dev
+if [ `uname` = 'Darwin' ]; then
+	. $HOME/bin/maltybrew switch_inplace dev
+fi
 
 # node.js
 source ~/.nvm/nvm.sh
