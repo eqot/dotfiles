@@ -59,3 +59,6 @@ fi
 
 # docker
 export DOCKER_HOST=tcp://localhost:4243
+
+# vert.x, groovy, etc
+[[ -s "/Users/eqo/.gvm/bin/gvm-init.sh" ]] && source "/Users/eqo/.gvm/bin/gvm-init.sh"
