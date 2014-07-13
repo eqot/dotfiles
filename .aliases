@@ -5,6 +5,7 @@ alias unproxy="unset http_proxy https_proxy HTTP_PROXY HTTPS_PROXY"
 
 # git
 alias g="git"
+alias gh-pages="git subtree push --prefix dist origin gh-pages"
 
 # Grunt
 alias gb="grunt build"
