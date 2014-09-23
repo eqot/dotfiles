@@ -6,6 +6,7 @@ alias unproxy="unset http_proxy https_proxy HTTP_PROXY HTTPS_PROXY"
 # git
 alias g="git"
 alias gh-pages="git subtree push --prefix dist origin gh-pages"
+alias gp="git co master && git merge -m \"Merge branch 'develop'\" develop && git push --all && git co develop"
 
 # Grunt
 alias gb="grunt build"
