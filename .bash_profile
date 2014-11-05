@@ -34,7 +34,7 @@ fi
 # Ruby
 if [ -e "$HOME/.rvm/scripts/rvm" ]; then
 	[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
-	rvm use 2.1.1@rails_4_1_1 --default
+	rvm use 2.1.4@rails_4_2_0b4 --default
 	PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 fi
 
