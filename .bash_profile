@@ -20,13 +20,13 @@ shopt -s cdspell
 
 # Maltybrew
 if [ `uname` = 'Darwin' ]; then
-	. $HOME/bin/maltybrew switch_inplace dev
+	. $HOME/bin/maltybrew switch_inplace dev2
 fi
 
 # node.js
 if [ -e ~/.nvm/nvm.sh ]; then
 	source ~/.nvm/nvm.sh
-	nvm use v0.10.33
+	nvm use v0.10.35
 	npm_dir=${NVM_PATH}_modules
 	export NODE_PATH=$npm_dir
 fi
@@ -34,7 +34,7 @@ fi
 # Ruby
 if [ -e "$HOME/.rvm/scripts/rvm" ]; then
 	[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
-	rvm use 2.1.4@rails_4_2_0b4 --default
+	rvm use 2.2.0@rails_4_2_0 --default
 	PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 fi
 
@@ -56,9 +56,6 @@ if [ -e ~/bin/git-prompt.sh ]; then
 	source ~/bin/git-prompt.sh
 	PROMPT_COMMAND='__git_ps1 "\u@\h:\W" "\\\$ "'
 fi
-
-# docker
-export DOCKER_HOST=tcp://localhost:4243
 
 # vert.x, groovy, etc
 [[ -s "/Users/eqo/.gvm/bin/gvm-init.sh" ]] && source "/Users/eqo/.gvm/bin/gvm-init.sh"
