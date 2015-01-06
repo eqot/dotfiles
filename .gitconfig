@@ -3,6 +3,8 @@
 [user]
 	name = Ikuo Terado
 	email = eqobar@gmail.com
+[push]
+	default = simple
 [color]
 	ui = true
 [alias]
