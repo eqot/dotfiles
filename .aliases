@@ -26,7 +26,7 @@ alias mi="rake db:migrate && RAILS_ENV=test rake db:migrate"
 alias va="vagrant"
 
 # docker
-alias dc="docker"
+alias dc="docker-compose"
 
 # Firefox OS
 alias fxos="adb forward tcp:6000 localfilesystem:/data/local/debugger-socket && adb forward tcp:2828 tcp:2828"
