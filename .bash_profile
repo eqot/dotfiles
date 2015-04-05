@@ -26,7 +26,7 @@ fi
 # node.js
 if [ -e ~/.nvm/nvm.sh ]; then
 	source ~/.nvm/nvm.sh
-	nvm use v0.10.35
+	nvm use v0.12.2
 	npm_dir=${NVM_PATH}_modules
 	export NODE_PATH=$npm_dir
 fi
