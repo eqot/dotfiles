@@ -26,7 +26,7 @@ fi
 # node.js
 if [ -e ~/.nvm/nvm.sh ]; then
 	source ~/.nvm/nvm.sh
-	nvm use v0.12.2
+	nvm use v0.12.5
 	npm_dir=${NVM_PATH}_modules
 	export NODE_PATH=$npm_dir
 fi
@@ -34,7 +34,7 @@ fi
 # Ruby
 if [ -e "$HOME/.rvm/scripts/rvm" ]; then
 	[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
-	rvm use 2.2.1@rails_4_2_1 --default
+	rvm use 2.2.2@rails_4_2_2 --default
 	PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 fi
 
@@ -58,4 +58,4 @@ if [ -e ~/bin/git-prompt.sh ]; then
 fi
 
 # vert.x, groovy, etc
-[[ -s "/Users/eqo/.gvm/bin/gvm-init.sh" ]] && source "/Users/eqo/.gvm/bin/gvm-init.sh"
+[[ -s "$HOME/.gvm/bin/gvm-init.sh" ]] && source "$HOME/.gvm/bin/gvm-init.sh"
