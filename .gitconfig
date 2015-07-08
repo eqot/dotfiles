@@ -22,3 +22,4 @@
 	diff = diff-highlight | less
 [core]
 	editor = subl -w
+	excludesfile = /Users/eqo/.gitignore_global
