@@ -23,13 +23,9 @@ if [ `uname` = 'Darwin' ]; then
 	. $HOME/bin/maltybrew switch_inplace dev2
 fi
 
-# node.js
-if [ -e ~/.nvm/nvm.sh ]; then
-	source ~/.nvm/nvm.sh
-	nvm use v0.12.5
-	npm_dir=${NVM_PATH}_modules
-	export NODE_PATH=$npm_dir
-fi
+# Node.js
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 # Ruby
 if [ -e "$HOME/.rvm/scripts/rvm" ]; then
