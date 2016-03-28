@@ -18,11 +18,6 @@ shopt -s histappend
 # Autocorrect typos in path names when using `cd`
 shopt -s cdspell
 
-# Maltybrew
-if [ `uname` = 'Darwin' ]; then
-	. $HOME/bin/maltybrew switch_inplace dev2
-fi
-
 # Node.js
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
