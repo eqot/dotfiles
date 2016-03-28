@@ -30,7 +30,7 @@ if [ -e "$HOME/.rvm/scripts/rvm" ]; then
 fi
 
 # Android
-android_dir=$HOME/bin/android/android-sdk-mac_x86
+android_dir=$HOME/Library/Android/sdk
 PATH=$PATH:$android_dir/platform-tools:$android_dir/tools
 
 # git
